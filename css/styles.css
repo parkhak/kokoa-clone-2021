@@ -2,9 +2,10 @@
 @import "reset.css";
 @import "variables.css";
 @import "components/status-bar.css";
-@import "componets/friends.css";
+@import "components/friends.css";
 @import "screens/login.css";
 
 body {
   font-family: "Open Sans", sans-serif;
+  height: 1000vh;
 }
