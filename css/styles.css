@@ -3,8 +3,8 @@
 @import "variables.css";
 @import "components/status-bar.css";
 @import "components/friends.css";
+@import "components/screen-header.css";
 @import "screens/login.css";
-
 body {
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
