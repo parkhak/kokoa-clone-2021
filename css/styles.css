@@ -2,10 +2,12 @@
 @import "reset.css";
 @import "variables.css";
 @import "components/status-bar.css";
-@import "components/friends.css";
+@import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "screens/login.css";
+@import "screens/friends.css";
 body {
+  color: #2e363e;
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
 }
