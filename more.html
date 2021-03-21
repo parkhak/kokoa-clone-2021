@@ -8,7 +8,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Find - Kokoa Clone</title>
+        <title>More - Kokoa Clone</title>
       </head>
       <body>
         <div class="status-bar">
@@ -27,72 +27,54 @@
         </div>
 
         <header class="screen-header">
-          <h1 class="screen-header__title">Find</h1>
+          <h1 class="screen-header__title">More</h1>
           <div class="screen-header__icons">
-            <span>
-              <i class="fas fa-search fa-lg fa-lg"></i>
-            </span>
-            <span class="screen-header__cogicon">
-              <i class="fas fa-cog fa-lg"></i>
-              <span class="update"></span>
-            </span>
+            <span><i class="fas fa-search fa-lg fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
           </div>
         </header>
 
-        <!--
-        <a id="friends-display-link"
-          ><i class="fas fa-info-circle"></i> Friends' Names Display
-          <i class="fas fa-chevron-right fa-xs"></i>
-        </a> -->
+        <main class="main-screen more-screen">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="Screenshots/nicolas.jpg"
+                class="user-component__avatar user-component__avatar--xl"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">Nicolas</h4>
+                <h6 class="user-component__subtitle">+1 787-493-4219</h6>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <i class="far fa-comment-alt fa-2x"></i>
+            </div>
+          </div>
 
-        <main class="main-screen">
           <div class="icon-row">
             <div class="icon-row__icon">
-              <i class="fas fa-qrcode fa-4x"></i><span>QR Code</span>
+              <i class="far fa-calendar-times fa-4x"></i><span>Calendar</span>
             </div>
             <div class="icon-row__icon">
-              <i class="far fa-address-book fa-4x"></i
-              ><span>Add by Contacts</span>
+              <i class="far fa-smile fa-4x"></i><span>Emoticons</span>
             </div>
             <div class="icon-row__icon">
-              <i class="fas fa-fingerprint fa-4x"></i><span>Add by ID</span>
+              <i class="fas fa-brush fa-4x"></i><span>Themes</span>
             </div>
             <div class="icon-row__icon">
-              <i class="far fa-envelope fa-4x"></i><span>Invite</span>
+              <i class="far fa-user fa-4x"></i><span>Account</span>
             </div>
           </div>
-
-          <div class="recommended-friends">
-            <h6 class="recommended-friends__title">recommended-friends</h6>
-            <span> You have no recommended-friends.</span>
+          <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
           </div>
-
-          <div class="open-chat">
-            <div class="open-chat__header">
-              <h4>Open Chat</h4>
-              <span
-                >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i
-              ></span>
-            </div>
-            <div class="open_post">
-              <div class="open_post__column">
-                <h5 class="open_post__title">#BTS</h5>
-                <h6 class="open_post__hashtags">#bts#army#friends</h6>
-                <div class="open_post__members">
-                  <img src="http://127.0.0.1:5500/Screenshots/nicolas.jpg" />
-                  <span class="open_post__members-count">802 members</span>
-                  <div class="divider"></div>
-                  <span class="open_post__member-status">Active</span>
-                </div>
+          <div class="more-suggestions__icons">
+            <div class="more-suggestions__icon">
+              <div class="more-suggestions__icon-image">
+                <i class="fas fa-quote-right"></i>
               </div>
-              <div class="open_post__column">
-                <div class="open_post__photo">
-                  <img src="http://127.0.0.1:5500/Screenshots/nicolas.jpg" />
-                  <div class="open_post__heart-count"><i class="fas fa-heart fa-xs"></i><span>326</span></div>
-                </div>
-                  
-                </div>
-              </div>
+              <span class="more-suggestions_icon-text">Kokoa Story</span>
             </div>
           </div>
         </main>
